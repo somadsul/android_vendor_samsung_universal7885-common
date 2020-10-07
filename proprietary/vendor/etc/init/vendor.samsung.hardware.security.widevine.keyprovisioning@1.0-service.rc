@@ -1,0 +1,7 @@
+# Copyright (C) 2020 Prashantpaddune
+
+service vendor.wvkprov_server_hal /vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
+    class core
+    user system
+    group system
+

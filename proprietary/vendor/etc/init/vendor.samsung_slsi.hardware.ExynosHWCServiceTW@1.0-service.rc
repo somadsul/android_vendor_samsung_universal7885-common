@@ -1,0 +1,6 @@
+# Copyright (C) 2020 Prashantpaddune
+
+service ExynosHWCServiceTW /vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service
+    class hal
+    user system
+    group graphics drmrpc
